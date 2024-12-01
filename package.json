@@ -1,8 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "test": "jest",
-    "start": "webpack-dev-server --hot --progress"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --hot --progress",
+    "test": "jest"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.34",
