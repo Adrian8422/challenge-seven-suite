@@ -26,6 +26,6 @@ export const FuelName = styled.h3`
 `;
 
 export const Percentage = styled.span<{ perc: number }>`
-  font-size: 14px;
+  font-size: 26px;
   color: ${(props) => (props.perc > 10 ? "#2ecc71" : "#e74c3c")};
 `;
