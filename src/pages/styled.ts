@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -8,7 +7,7 @@ export const Container = styled.div`
   justify-content: center;
   min-height: 100vh;
   background-color: #f7f7f7;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #333;
 `;
 

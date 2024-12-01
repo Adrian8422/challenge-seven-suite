@@ -15,7 +15,10 @@ const EnergyItem: React.FC<EnergyItemProps> = ({
   hoverBorderColor,
 }) => {
   return (
-    <ItemContainer borderColor={borderColor} hoverBorderColor={hoverBorderColor}>
+    <ItemContainer
+      borderColor={borderColor}
+      hoverBorderColor={hoverBorderColor}
+    >
       <FuelName>{fuel}</FuelName>
       <Percentage perc={perc}>{perc}%</Percentage>
     </ItemContainer>

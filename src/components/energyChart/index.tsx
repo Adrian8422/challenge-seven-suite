@@ -10,7 +10,9 @@ const EnergyChart = ({ generationMix }) => {
         label: "Energy Mix",
         data: generationMix.map((item) => item.perc),
         backgroundColor: generationMix.map((item) => item.backgroundColor),
-        hoverBackgroundColor: generationMix.map((item) => item.hoverBackgroundColor),
+        hoverBackgroundColor: generationMix.map(
+          (item) => item.hoverBackgroundColor
+        ),
       },
     ],
   };

@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import EnergyItem from '../components/energyItem';
-import { ErrorText, LoadingText, Title } from '../ui/texts';
-import { getDataGenerationMix } from '../api/api';
+import React, { useEffect, useState } from "react";
+import EnergyItem from "../components/energyItem";
+import { ErrorText, LoadingText, Title } from "../ui/texts";
+import { getDataGenerationMix } from "../api/api";
 
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { EnergyChart } from '../components/energyChart';
-import { EnergyList,Container } from './styled';
-
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+import { EnergyChart } from "../components/energyChart";
+import { EnergyList, Container } from "./styled";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
